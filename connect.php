@@ -1,0 +1,9 @@
+<?php
+error_reporting(0);
+$host="localhost";
+$user="root";
+$password="";
+$database="fyp";
+mysql_connect($host,$user,$password);
+mysql_select_db($database);
+?>
